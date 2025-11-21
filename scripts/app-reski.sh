@@ -28,7 +28,7 @@ az webapp create \
 
 PG_FQDN="${PG_SERVER_NAME}.postgres.database.azure.com"
 SPRING_DATASOURCE_URL="jdbc:postgresql://${PG_FQDN}:5432/${PG_DB_NAME}?sslmode=require"
-SPRING_DATASOURCE_USERNAME="${PG_ADMIN_USER}@${PG_SERVER_NAME}"
+SPRING_DATASOURCE_USERNAME="${PG_ADMIN_USER}"
 
 echo "Configurando App Settings do Web App"
 az webapp config appsettings set \
