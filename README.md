@@ -13,6 +13,15 @@ Inclui os scripts de criação da infraestrutura, configuração do ambiente e v
 
 ---
 
+## 📁 Estrutura do Projeto
+- `Reski_Ai_java/src/main/java` — código da aplicação  
+- `Reski_Ai_java/src/main/resources` — configurações e migrations  
+- `Reski_Ai_java/db/migration` — scripts Flyway  
+- `scripts/` — scripts de provisionamento no Azure  
+- `README.md` — documentação do projeto
+
+---
+
 ## 1. Clonar o Repositório
 ```bash
 git clone https://github.com/ykxtais/Reski-Ai-dev.git
